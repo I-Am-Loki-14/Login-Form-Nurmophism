@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.form-container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(172, 172, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../img/pexels-felixmittermeier-957040.jpg);
+  background-position: center;
+  background-size: cover; */
+}
+form {
+  /* width: 400px; */
+  /* height: 600px; */
+  /* background: rgb(172, 174, 174); */
+  border: 5rem solid transparent;
+  border-radius: 50%;
+  padding: 5rem;
+  box-shadow:
+    inset 15px 10px 10px 5px #676666d8,
+    inset -5px 10px 5px 5px #fffdfd;
+  /* backdrop-filter: blur(3px); */
+  transition: 0.3s ease-in-out;
+}
+form div {
+  width: 300px;
+  padding: 1rem 0rem;
+  /* background: greenyellow; */
+  margin: 0.5rem 0;
+  position: relative;
+}
+form h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 2rem;
+}
+h5 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+form div i {
+  position: absolute;
+  font-size: large;
+  top: 38%;
+  left: 3%;
+}
+input {
+  width: 100%;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  box-shadow:
+    inset 5px 10px 10px 5px #7e7d7d,
+    inset -5px 10px 5px 5px #fffdfd;
+}
+::placeholder {
+  color: #d3d3d3;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow:
+    inset 10px 10px 10px -5px #7e7d7d,
+    inset 5px 10px 5px 5px #c0bfbf;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #dcd9d9;
+}
+button:hover {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow:
+    inset 15px 10px 10px 5px #7e7d7d,
+    inset -15px 10px 5px 5px #fffdfd;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #d9d8d8;
+  transition: 0.2s;
+}
+form:hover {
+  transform: rotateY(180deg);
+  transition: ease-in-out 1s;
+}
